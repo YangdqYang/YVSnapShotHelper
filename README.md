@@ -1,0 +1,2 @@
+# YVSnapShotHelper
+iOS snapshot scrollView

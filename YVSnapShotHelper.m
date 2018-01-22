@@ -39,7 +39,7 @@
     }
 }
 
-+ (void)image:(UIImage *)image didFinishSavingWithError:(NSError *)error contextInfo:(void *)contextInfo{
+- (void)image:(UIImage *)image didFinishSavingWithError:(NSError *)error contextInfo:(void *)contextInfo{
     if (error == nil) {
         NSLog(@"存入手机相册成功");
     }else{
